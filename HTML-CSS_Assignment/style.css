@@ -1,19 +1,16 @@
+    
+
 .header {
-    background-color: crimson;
     text-align: center;
   }
   
-  .about-me {
-    font-size: 20px;
-    opacity: 0.50;
-  }
-  
-  .title {
+.title {
     font-weight: bold;
   }
   
   h1 {
     color: crimson;
+    text-align: center;
   }
 
 nav ul {
@@ -21,7 +18,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #010e80;
+	background-color: #016280;
 	display: table;
 	width: 100%;
 }
@@ -29,3 +26,107 @@ nav ul {
 nav li {
 	display: table-cell
 }
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+h2 a {
+	padding: 33px 25px;
+	color: white;
+	text-decoration: none;
+}
+
+h2 a:hover {
+	background-color: #111;
+}
+
+header {
+	margin-left: 14px;
+}
+
+article {
+	text-align: center;
+	margin: 15px;
+	max-width: 80%;
+	font-size: 20px;
+	line-height: 32px;
+}
+
+img {
+	width: 500px;
+	height: 400px;
+    position:relative;
+    left: 90px;
+}
+
+figcaption{
+  text-align: center;
+}
+
+
+aside {
+	left: 50px;
+	border: 1px solid black;
+	padding: 20px;
+	max-width: 80%;
+	position: relative;
+	border-color: #348001;
+	border-width: 5px;
+	font-size: 20px;
+    background-color: beige;
+}
+
+aside p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.health {
+    background-color: rgb(220, 228, 235);
+    height: 40%;
+    width: 70%;
+    position: sticky;
+}
+
+ul.health li {
+    display: inline-block;
+    background-color: #f5d103;
+    list-style: none;
+    width: 600px
+    padding: 10px 20px;
+    margin-bottom: 1px; 
+  }
+
+footer {
+	position: relative;
+	width: 100%;
+	bottom: -100px;
+	background-color: #010e80;
+}
+
+footer p {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+}
+
